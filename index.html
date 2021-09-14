@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import"css.css";
+  </style>
+</head>
+
+<body>
+  <div class='all'>
+    <div>
+      <div style="display: grid;place-items:center;
+      background-color: rgb(241, 183, 177);" id="header">
+        <div style="display: inline-block;">
+          <sub style="color: green;font-size: 1rem;margin-left: -40px;">個人JQuery學習</sub>
+          <span id="title">來製作專屬輪撥相簿吧!</span>
+        </div>
+        <div>*此網站資料來源於政府資料開放平臺，非完整接露也非同步更新，活動內容僅供參考</div>
+      </div>
+    </div>
+    <h3 id="step1">Step1:假設您參加了以下10個活動，請選擇喜歡的圖片(輪撥張數可自訂，需2張以上)</h3>
+    <ul id="list">
+    </ul>
+    <div style="display:flex;margin-bottom: 18px;flex-wrap: wrap;align-items: center;">
+      <div id="picPickNum">您已選擇
+        <span style="margin-inline:2px;color:red;font-size:22px">0</span>
+        張相片
+      </div>
+      <div id="note"></div>
+    </div>
+    <div id="PWarea1">
+      <div id="detailP">
+        <div id="functionList"></div>
+      </div>
+      <div id="detailW"></div>
+    </div>
+    <div id="step2"></div>
+    <div id="PWarea2">
+      <div id="prepare">
+        <div id="group">
+        </div>
+      </div>
+      <div id="picWord"></div>
+    </div>
+    <div id='final'></div>
+  </div>
+
+  <!-- <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script> -->
+  <script src="main_afterWebpack.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,916 @@
+@media(min-width:0px) and (max-width:479px){
+  .all{
+    width:95%;
+    margin:0 auto;
+  }
+  .fix{
+    width:95%;
+    margin:0 auto;
+  }
+  #title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#step1{
+  text-align: center;
+  margin-top: 15px;
+}
+#list{
+  flex-wrap: wrap;
+  margin-top: -10px;
+  padding-left: 0px;
+}
+.activity{
+  margin-left: 20px;
+}
+#PWarea1{
+  flex-wrap: wrap;
+}
+#detailP{
+  width:100%;
+  height: 30vh;
+}
+#detailW{
+  margin-top: 15px;
+  height: 30vh;
+}
+.pick{
+  width: 35px;
+height: 35px;
+font-size: 30px;
+line-height: 35px;
+}
+#PWarea2{
+  display: flex;
+  flex-wrap: wrap;
+}
+#prepare{
+  width: 100%;
+  height: 30vh;
+}
+#group{
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.pic{
+  width: 95vw;
+  height: 30vh;
+}
+.prev{
+  border: 25px solid transparent;
+}
+.next{
+  border: 25px solid transparent;
+  left: 81vw;
+}
+#content{
+  width: 100%;
+  height: 150px;
+}
+#btnsGroup{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#wordBtn{
+  height: 24.4px;
+  padding:0;
+}
+#finishBtn{
+  height: 24.4px;
+  padding:0;
+}
+#album{
+  position: absolute;
+  width:92%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#deco{
+  position: absolute;
+  height: 5px;
+    width: 80vw;
+    transform:scale(1,0.5);
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+    background-color: brown;
+}
+#deco div{
+  width: 50px;
+  height: 0px;
+}
+#speed {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+#finalPic{
+  width:95%;
+  height: 30vh;
+  margin-top: 8vh;
+margin-bottom: 4vh;
+}
+ #finalPic #group .pic{
+    width:87.4vw;
+    height: 30vh;
+  }
+#finalWord{
+  width:95%;
+  height: 30vh;
+  margin-bottom: 8vh;
+}
+}
+
+@media(min-width:480px) and (max-width:767px){
+  .all{
+    width:480px;
+    margin:0 auto;
+  }
+  .fix{
+    width: 480px;
+  }
+  #title{
+      font-size: 20px;
+      font-weight: bold;
+       text-align: center;
+  }
+  #step1{
+    text-align: center;
+    margin-top: 15px;
+  }
+  #list{
+    flex-wrap: wrap;
+    margin-top: -10px;
+    padding-left: 0px;
+  }
+  .activity{
+    margin-left: 40px;
+  }
+  #PWarea1{
+    flex-wrap: wrap;
+  }
+  #detailP{
+    width:420px;
+    height: 230px;
+  }
+  .pick{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #detailW{
+    width: 453px;
+    height: 157px;
+    margin-top: 15px;
+  }
+  .detailDis{
+    height: 120px;
+  }
+  #PWarea2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #prepare{
+    width:420px;
+    height: 230px;
+    margin: 0 auto;
+  }
+  .pic{
+    width:420px;
+    height: 230px;
+  }
+  .prev{
+    border: 40px solid transparent;
+  }
+  #group{
+    position: absolute;
+    display:flex;
+    flex-wrap: nowrap;
+  }
+  .next{
+    border: 40px solid transparent;
+    left:370px;
+  }
+  #textLimit{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  #picWord{
+    margin: 0 auto;
+  }
+  #content{
+    width: 420px;
+    height: 130px;
+    font-size: 15px;
+  }
+  #btnsGroup{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #album{
+    position: absolute;
+    width:470px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #speed{
+    display: flex;
+    align-items: center;
+    top:260px;
+  }
+  #secondSubmit{
+    margin-left: 5px;
+  }
+  #finalPic{
+    width:420px;
+    height: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #finalPic #group .pic{
+    width:420px;
+    height: 230px;
+  }
+  #deco{
+    top:120px;
+    left: 190px;
+    width: 50px;
+    height: 400px;
+    transform: scale(1.1,0.8) rotate(90deg);
+  }
+  #deco div{
+    margin-top: -40px;
+  }
+  #finalWord{
+    width:420px;
+    height: 230px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  #deco div{
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px brown,
+                0 30px 0 7px  rgb(248, 180, 132),
+                0 60px 0 7px brown,
+                0 90px 0 7px  rgb(248, 180, 132),
+                0 120px 0 7px brown,
+                0 150px 0 7px  rgb(248, 180, 132),
+                0 180px 0 7px brown,
+                0 210px 0 7px  rgb(248, 180, 132),
+                0 240px 0 7px brown,
+                0 270px 0 7px  rgb(248, 180, 132), 
+                0 300px 0 7px brown,
+                0 330px 0 7px  rgb(248, 180, 132),
+                0 360px 0 7px brown;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px){
+  .all{
+    width:768px;
+    margin:0 auto;
+  }
+  #step1{
+    text-align: center;
+    margin-top: 35px;
+  }
+  .fix{
+    width: 768px;
+  }
+  #title{
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  #list{
+    justify-content: space-evenly;
+    width: 80%;
+    margin:0 auto;
+  }
+  #PWarea1{
+    flex-wrap: wrap;
+  }
+  #detailP{
+    width:565px;
+    height: 343px; 
+  }
+  .prev{
+    border: 40px solid transparent;
+  }
+  .pick{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #detailW{
+    width:650px;
+    height: 300px;
+  }
+  #PWarea2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .next{
+    border: 40px solid transparent;
+    left:510px;
+  }
+  #prepare{
+    width:565px;
+    height: 343px;
+    margin: 0 auto;
+  }
+  .pic{
+    width:565px;
+    height: 343px;
+  }
+  #group{
+    position: absolute;
+    display:flex;
+    flex-wrap: nowrap;
+  }
+  #textLimit{
+    font-size: 20px;
+    margin-left: 100px;
+  }
+  #content{
+    margin-left: 130px;
+    width: 510px;
+    height: 150px;
+  }
+  #btnsGroup{
+    width: 100%;
+    margin-left: 180px;
+    margin-top: 15px;
+  }
+  #finishBtn{
+    margin-left: 20px;
+  }
+  #album{
+    width:650px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+  }
+  #finalPic{
+    width:600px;
+    height: 330px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #finalPic #group .pic{
+    width:600px;
+    height: 330px;
+  }
+  #deco{
+    top: 150px;
+    left: 170px;
+    width: 50px;
+    height: 541px;
+    transform: scale(1.5,0.6) rotate(90deg);
+ }
+  #deco div{
+    margin-top: -40px;
+ }
+  #speed{
+    top: 365px;
+    display: flex;
+    align-items: center;
+ }
+  #secondSubmit{
+    margin-left: 30px;
+    margin-top: -10px;
+ }
+  #finalWord{
+    width:530px;
+    height: 241px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+ }
+  #final{
+    height: 768px;
+    padding: 40px 0;
+  }
+  #deco div{
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px brown,
+                0 30px 0 7px  rgb(248, 180, 132),
+                0 60px 0 7px brown,
+                0 90px 0 7px  rgb(248, 180, 132),
+                0 120px 0 7px brown,
+                0 150px 0 7px  rgb(248, 180, 132),
+                0 180px 0 7px brown,
+                0 210px 0 7px  rgb(248, 180, 132),
+                0 240px 0 7px brown,
+                0 270px 0 7px  rgb(248, 180, 132), 
+                0 300px 0 7px brown,
+                0 330px 0 7px  rgb(248, 180, 132),
+                0 360px 0 7px brown;
+  }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+  .all{
+    width:992px;
+    margin:0 auto;
+  }
+  .fix{
+    width: 992px;
+  }
+  #title{
+    font-size: 30px;
+     margin-left: 30px;
+  }
+  #step1{
+    text-align: center;
+    margin-top: 35px;
+  }
+  #list{
+    justify-content: space-evenly;
+    width: 80%;
+    margin:0 auto;
+  }
+  #PWarea1{
+    flex-wrap: nowrap;
+  }
+
+  .pick{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #detailP{
+    width: 540px;
+    height: 371px;
+  }
+  #detailW{
+    width:421px;
+    height: 371px;
+  }
+
+  #PWarea2{
+    display: flex;
+    justify-content: center;
+  }
+  .prev{
+    border: 40px solid transparent;
+  }
+  #group{
+    position: absolute;
+    display:flex;
+    flex-wrap: nowrap;
+  }
+  .pic{
+    width:540px;
+    height: 371px;
+  }
+  #prepare{
+    width:540px;
+    height: 371px;
+  }
+  #picWord{
+    width:427px;
+    height: 60vh;
+  }
+  .next{
+    border: 40px solid transparent;
+    left:480px;
+  }
+  #textLimit{
+    font-size: 20px;
+    margin-left:5vh;
+  }
+  #content{
+    margin-left: 10px;
+    width: 400px;
+    height: 244px;
+  }
+  #btnsGroup{
+    margin: 0 auto;
+  }
+  #wordBtn{
+    margin-left: 80px;
+    margin-top: 7px;
+  }
+  #finishBtn{
+    margin-left: 80px;
+    margin-top: 7px;
+  }
+  #album{
+    width: 992px;
+    position:relative;
+  }
+  #speed{
+    top:5px;
+    left: 70%;
+  }
+  #finalPic{
+    width:450px;
+    height: 331px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #finalPic #group .pic{
+    width:450px;
+    height: 331px;
+  }
+  #deco{
+    width: 50px;
+    height: 361px;
+    left: 520px;
+  }
+  #deco div{
+    margin-top: -40px;
+  }
+  #finalWord{
+    margin-left: 125px;
+    width: 340px;
+    height: 271px;
+    margin-top: 70px;
+  }
+  #final{
+    height: 425px;
+    padding: 40px 0;
+  }
+  #deco div{
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px brown,
+                0 30px 0 7px  rgb(248, 180, 132),
+                0 60px 0 7px brown,
+                0 90px 0 7px  rgb(248, 180, 132),
+                0 120px 0 7px brown,
+                0 150px 0 7px  rgb(248, 180, 132),
+                0 180px 0 7px brown,
+                0 210px 0 7px  rgb(248, 180, 132),
+                0 240px 0 7px brown,
+                0 270px 0 7px  rgb(248, 180, 132), 
+                0 300px 0 7px brown,
+                0 330px 0 7px  rgb(248, 180, 132),
+                0 360px 0 7px brown;
+  }
+}
+
+@media(min-width:1200px){
+  .all{
+    width:1200px;
+    margin:0 auto;
+  }
+  .fix{
+    width: 1200px;
+  }
+  #title{
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  #step1{
+  text-align: center;
+  margin-top: 35px;
+  }
+  #list{
+  justify-content: space-evenly;
+  width: 80%;
+  margin:0 auto;
+  }
+  #PWarea1{
+  flex-wrap: nowrap;
+  }
+  .pick{
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  line-height: 50px;
+  }
+  #detailP{
+  width:626px;
+  height: 343px; 
+  }
+  #detailW{
+  width:574px;
+  height: 343px;
+  }
+  #PWarea2{
+  display: flex;
+  justify-content: center;
+  }
+  .prev{
+  border: 40px solid transparent;
+  }
+  #group{
+  position: absolute;
+  display:flex;
+  flex-wrap: nowrap;
+  }
+  .pic{
+  width:626px;
+  height: 343px; 
+  }
+  #prepare{
+  width:626px;
+  height: 343px;
+  }
+  #content{
+  width: 530px;
+  margin-left: 25px;
+  height: 245px;
+  }
+  #picWord{
+  width:574px;
+  height: 343px;
+  }
+  .next{
+  border: 40px solid transparent;
+  left:570px;
+  }
+  #textLimit{
+  font-size: 20px;
+  margin-left:5vh;
+  }
+  #finishBtn{
+  margin-left: 50px;
+  width: 250px;
+  }
+  #btnsGroup{
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-left: -30px;
+  }
+  #wordBtn{
+  margin-left: 80px;
+  margin-top: 7px;
+  }
+  #finishBtn{
+  margin-left: 80px;
+  margin-top: 7px;
+  }
+  #final{
+  height: 464px;
+  padding: 50px 0;
+  }
+  #album{
+  width: 1200px;
+  position: relative;
+  }
+  #speed{
+  top:5px;
+  left: 75%;
+  }
+  #finalPic{
+  width:550px;
+  height: 331px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  #finalPic #group .pic{
+  width:550px;
+  height: 331px;
+  }
+  #deco{
+  width: 50px;
+  height: 361px;
+  left: 590px;
+  }
+  #deco div{
+  margin-top: -40px;
+  }
+  #finalWord{
+  margin-left: 110px;
+  width: 500px;
+  height: 271px;
+  margin-top: 70px;
+  }
+  #deco div{
+  width: 50px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 0 7px brown,
+              0 30px 0 7px  rgb(248, 180, 132),
+              0 60px 0 7px brown,
+              0 90px 0 7px  rgb(248, 180, 132),
+              0 120px 0 7px brown,
+              0 150px 0 7px  rgb(248, 180, 132),
+              0 180px 0 7px brown,
+              0 210px 0 7px  rgb(248, 180, 132),
+              0 240px 0 7px brown,
+              0 270px 0 7px  rgb(248, 180, 132), 
+              0 300px 0 7px brown,
+              0 330px 0 7px  rgb(248, 180, 132),
+              0 360px 0 7px brown;
+  }
+}
+body{
+  margin: 0;
+}
+.fix {
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+
+.activity:hover{
+ font-weight:bold;
+ color:brown;
+}
+.activity img{
+  border-radius: 15%;
+}
+#list {
+  list-style-type: none;
+  display: flex;
+ }
+#PWarea1{
+  display: flex;
+  justify-content: center;
+}
+#picPickNum{
+  width: 160px;
+  flex-shrink: 0;
+}
+#note{
+  display: flex;
+  flex-wrap: wrap;
+}
+#note div{
+  margin-left: 10px;
+  background-color: rgba(0, 0, 139);
+  color: white;
+  padding: 3px;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+#detailP {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+}
+.detailName{
+  text-align: center;
+  font-size: 25px;
+  color:brown;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.detailDis{
+  margin-left: 8px;
+}
+#detailW {
+  padding: 5px;
+  overflow-y: auto; 
+}
+#detailW::-webkit-scrollbar{
+  background-color: brown;
+  border-radius: 6px;
+}
+#detailW::-webkit-scrollbar-thumb{
+  background-color:khaki;
+  border-radius: 6px;
+}
+.mark{
+    margin-right: 4px;
+  }
+.mark div{
+  width: 20px;
+  height: 25px;
+  background-color: white;
+  border:1px solid yellow;
+  text-align: center;
+  line-height: 30px;
+}
+.pick{
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid yellow;
+  text-align: center;
+}
+#pickBtn{
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(255, 0, 0,0.7);
+  color: white;
+  border-radius: 10%;
+} 
+#functionList{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8px;
+}
+#step2 h3{
+  text-align: center;
+}
+.pic{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+#prepare{
+  overflow: hidden;
+  position: relative;
+}
+.prev{
+  width: 0;
+  height: 0;
+  border-radius: 30%;
+  border-right:40px solid tomato;
+  position:absolute;
+  top:40%;
+  left:-25px;
+  z-index: 10;
+}
+.next{
+  width: 0;
+  height: 0;
+  border-radius: 30%;
+  border-left:40px solid tomato;
+  position:absolute;
+  top:40%;
+  z-index: 10;
+}
+#textLimit{
+  color:brown;
+  letter-spacing: 1px;
+}
+#content{
+  border:0;
+  background-color: rgba(128, 128, 128,0.2);
+  resize: none;
+  margin-top: 2vh;
+  font-size: 20px;
+  position: relative;
+}
+#wordBtn{
+  width: 150px;
+  background-color:rgba(165, 42, 42,0.35)
+}
+#finishBtn{
+  width: 250px;
+  background-color: rgba(129, 14, 236,0.4);
+}
+#album{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248, 180, 132);
+  border-radius: 10px;
+}
+
+#finalPic{
+  overflow: hidden;
+  position: relative;
+  border-radius: 3vw;
+}
+#finalPic .pic{
+  width: 43vw;
+}
+#finalWord{
+  border-radius: 3vw;
+  background-color:rgba(250, 250, 109, 0.5);
+  display: grid;
+  place-items: center;
+}
+#finalWord div{
+  word-wrap: break-word;
+  word-break: break-all;
+}
+#deco{
+  position: absolute;
+  overflow: hidden;
+}
+#speed{
+  position: absolute;
+}
+#second{
+  width: 29px;
+  height: 16px;
+}
+#secondSubmit{
+  height: 30px;
+  margin-top: 3px;
+  background-color: brown;
+  color: white;
+  border-radius: 15px;
+}

@@ -33,7 +33,7 @@
 }
 #detailW{
   margin-top: 15px;
-  height: 30vh;
+  max-height: 30vh;
 }
 .pick{
   width: 35px;
@@ -167,7 +167,7 @@ margin-bottom: 4vh;
   }
   #detailW{
     width: 453px;
-    height: 157px;
+    max-height: 157px;
     margin-top: 15px;
   }
   .detailDis{
@@ -316,7 +316,7 @@ margin-bottom: 4vh;
   }
   #detailW{
     width:650px;
-    height: 300px;
+    max-height: 300px;
   }
   #PWarea2{
     display: flex;
@@ -460,7 +460,7 @@ margin-bottom: 4vh;
   }
   #detailW{
     width:421px;
-    height: 371px;
+    max-height: 371px;
   }
 
   #PWarea2{
@@ -604,7 +604,7 @@ margin-bottom: 4vh;
   }
   #detailW{
   width:574px;
-  height: 343px;
+  max-height: 343px;
   }
   #PWarea2{
   display: flex;

@@ -8,10 +8,13 @@
     margin:0 auto;
   }
   #title{
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
-    transform:translateY(500px)
+    position:absolute;
+    top:500px;
+    left:300px;
+    
 }
 #step1{
   text-align: center;
